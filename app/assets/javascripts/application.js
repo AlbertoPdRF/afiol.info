@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require bootstrap
+//= require bootstrap-hover-dropdown.min.js
 //= require jquery.easing
 //= require rails-ujs
 //= require activestorage

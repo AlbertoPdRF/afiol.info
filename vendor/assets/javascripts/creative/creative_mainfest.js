@@ -2,6 +2,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
+//= require bootstrap-hover-dropdown.min.js
 //= require creative/cbpAnimatedHeader
 //= require creative/classie
 //= require jquery.easing

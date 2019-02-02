@@ -29,12 +29,12 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+es:
   pages:
     homepage:
-      title: "Home"
-      welcome: "Your Favorite Source of Free Bootstrap Themes"
-      introduction: "Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!"
-      about: "Find Out More"
+      title: "Portada"
+      welcome: "Tu fuente favorita de plantillas Bootstrap gratuitas"
+      introduction: "¡\"Start Bootstrap\" te puede ayudar a construir mejores páginas web usando el marco de referencia de CSS de Bootstrap! ¡Tan sólo descarga tu plantilla y empieza, sin ataduras!"
+      about: "Descubre más"
     about:
-      title: "About me"
+      title: "Sobre mí"
