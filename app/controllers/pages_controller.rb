@@ -4,4 +4,13 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def research
+  end
+
+  def speedcubing
+  end
+
+  def contact
+  end
 end

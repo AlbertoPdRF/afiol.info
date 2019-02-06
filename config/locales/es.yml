@@ -30,11 +30,25 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 es:
+  layouts:
+    navigation:
+      branding: "afiol.info"
+      about: "Sobre mí"
+      research: "Investigación"
+      speedcubing: "Speedcubing"
+      contact: "Contáctame"
+    footer:
+      copyright: "Alberto Pérez de Rada Fiol. Todos los derechos reservados."
   pages:
     homepage:
       title: "Portada"
-      welcome: "Tu fuente favorita de plantillas Bootstrap gratuitas"
-      introduction: "¡\"Start Bootstrap\" te puede ayudar a construir mejores páginas web usando el marco de referencia de CSS de Bootstrap! ¡Tan sólo descarga tu plantilla y empieza, sin ataduras!"
-      about: "Descubre más"
+      welcome: "¡Bienvenido a mi página web personal!"
+      introduction: "Aquí encontrarás información sobre mí: quién soy, los proyectos de investigación en física nuclear de los que formo parte y mi participación dentro de la comunidad de speedcubing"
     about:
       title: "Sobre mí"
+    research:
+      title: "Investigación"
+    speedcubing:
+      title: "Speedcubing"
+    contact:
+      title: "Contáctame"
