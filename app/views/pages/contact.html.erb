@@ -1,1 +1,14 @@
 <% provide(:title, t('.title')) %>
+
+<section class="bg-primary" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading"><%= t('pages.wip.disclaimer') %></h2>
+        <hr class="light">
+        <p class="text-faded"><%= t('pages.wip.information') %></p>
+        <a href='<%= asset_url("/cv/[CV-#{I18n.locale.upcase}]APdRF.pdf") %>' class="btn btn-default btn-xl"><%= t('pages.wip.cv') %></a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -52,3 +52,7 @@ es:
       title: "Speedcubing"
     contact:
       title: "Contáctame"
+    wip:
+      disclaimer: "¡Esta página está en construction!"
+      information: "Mientras tanto, me puedes conocer mejor echándole un ojo a mi Curriculum Vitae"
+      cv: "Mostrar CV"
