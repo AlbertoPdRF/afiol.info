@@ -85,4 +85,4 @@ production:
   <<: *default
   database: afiol_production
   username: afiol
-  password: <%= ENV['AFIOL_DATABASE_PASSWORD'] %>
+  password: <%= Rails.application.credentials.dig(:AFIOL_DATABASE_PASSWORD) %>
