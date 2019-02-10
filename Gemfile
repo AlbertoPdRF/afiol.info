@@ -41,6 +41,8 @@ gem 'jquery-rails'
 gem 'jquery-easing-rails'
 gem 'font-awesome-rails'
 gem 'glyphicons-rails'
+gem 'rails-i18n'
+gem 'sendgrid-ruby'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

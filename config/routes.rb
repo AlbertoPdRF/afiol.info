@@ -5,6 +5,8 @@ Rails.application.routes.draw do
     get '/about' => 'pages#about'
     get '/research' => 'pages#research'
     get '/speedcubing' => 'pages#speedcubing'
-    get '/contact' => 'pages#contact'
+
+    get '/contact' => 'messages#new'
+    post '/contact' => 'messages#create', as: 'create_message'
   end
 end
