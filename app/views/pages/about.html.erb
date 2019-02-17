@@ -4,11 +4,58 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <h2 class="section-heading"><%= t('pages.wip.disclaimer') %></h2>
+        <h2 class="section-heading"><%= t('.title') %></h2>
         <hr class="light">
-        <p class="text-faded"><%= t('pages.wip.information') %></p>
-        <a href='<%= asset_url("/cv/[CV-#{I18n.locale.upcase}]APdRF.pdf") %>' class="btn btn-default btn-xl"><%= t('pages.wip.cv') %></a>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="photo-left">
+  <div class="container">
+    <div class="row">
+      <%= image_tag asset_url("/images/about/me.jpg") %>
+      <h3 class="sub-section-heading"><%= t('.introduction_title') %></h3>
+      <p><%= t('.introduction_p1_html') %></p>
+      <p><%= t('.introduction_p2') %></p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-dark photo-right">
+  <div class="container">
+    <div class="row">
+      <%= image_tag asset_url("/images/about/physics.jpg") %>
+      <h3 class="sub-section-heading"><%= t('.physics_title') %></h3>
+      <p><%= t('.physics_p1') %></p>
+      <p><%= t('.physics_p2_html') %></p>
+      <p><%= t('.physics_p3') %></p>
+      <p><%= link_to t('.research_link'), research_path, class: "btn btn-primary btn-xl" %></p>
+    </div>
+  </div>
+</section>
+
+<section class="photo-left">
+  <div class="container">
+    <div class="row">
+      <%= image_tag asset_url("/images/about/speedcubing.jpg") %>
+      <h3 class="sub-section-heading"><%= t('.speedcubing_title') %></h3>
+      <p><%= t('.speedcubing_p1_html') %></p>
+      <p><%= t('.speedcubing_p2_html') %></p>
+      <p><%= t('.speedcubing_p3') %></p>
+      <p><%= link_to t('.speedcubing_link'), speedcubing_path, class: "btn btn-primary btn-xl" %></p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-primary photo-right">
+  <div class="container">
+    <div class="row">
+      <%= image_tag asset_url("/images/about/optimist.jpg") %>
+      <h3 class="sub-section-heading"><%= t('.activities_title') %></h3>
+      <p><%= t('.activities_p1') %></p>
+      <p><%= t('.activities_p2') %></p>
+      <p><%= t('.activities_p3') %></p>
     </div>
   </div>
 </section>
