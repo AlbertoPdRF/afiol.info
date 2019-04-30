@@ -83,7 +83,7 @@ if [ "x$user_choice" == "xy" ]; then
 fi
 
 echo "Installing cron scripts"
-cp /home/afiol/afiol.info/scripts/cron_weekly.sh /etc/cron.weekly
+cp /home/afiol/afiol.info/scripts/cert_nginx /etc/cron.weekly
 
 echo "Bootstraping as afiol"
 su afiol -c "cd /home/afiol && /home/afiol/afiol.info/scripts/afiol_bootstrap.sh"
